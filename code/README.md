@@ -3,11 +3,11 @@
 This folder is used to reproduce the CellVoyager COVID-19 PBMC case-study trajectory using a DeepSeekv4 model.
 
 ## Deepseek API Key
-Go to platform.deepseek.com
-Sign up / log in
-Go to API Keys in the left sidebar
-Click Create new API key. 
-Top up a few dollar
+- Go to [platform.deepseek.com](platform.deepseek.com)
+- Sign up / log in
+- Go to API Keys in the left sidebar
+- Click Create new API key. 
+- Top up a few dollar
 
 
 ## Repository Setup

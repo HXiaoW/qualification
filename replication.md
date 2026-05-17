@@ -19,6 +19,7 @@ In the first step, it tested the inflammatory ligand exoression in monocytes bet
 In the second step, it tested ligand-receptor interaction for moncytes and T cells, which is also sensible which it did a vizualization of step 1
 In step 3, it is sensible, as in this step it is first comparing the leiden subclustering and the DE genes, and then calcilating the ligand receptor interaction scores between monocytes and T cell, and both of this  are sensible as monocyte heterogeneity and its interaction with immune system is related to COVID
 Step 4 is very sensible, as it is focusing on COVID specifically, and it is trying to find biologically meaningful factors. 
+I was not able to actually visualize any output to answer b and c. 
 
 
 # Overlap with the paper. For this dataset the paper highlights findings around CD8+ T cell pyroptosis, monocyte HLA class II downregulation, and plasmablast / developing-neutrophil dynamics. Did your trajectory go anywhere near these directions? If it explored elsewhere, what did it find?
@@ -30,10 +31,12 @@ It cost less than 5 cents USD.
 # Judegement questions: 
 ## What surprised you most about getting this running?
 What surprised me most was how detail we have to be when running the scripts, the command line structures, it took more time in fine tuning then I thought. Although the scripts were ready to go and make everything easier, but actually running something unfamilar takes more effort than I thought as it requires real understanding for the commands and the scripts, and would encounter many unexpected problems. 
+I was also a bit surprised of how low the cost was, which made me a little suspicious if the analysis was done correctly, but with a little running out of time, I wish to dig more into it. 
 
 ## Where in the pipeline did you have to make a judgment call that wasn't specified by the paper or repo? What did you decide and why?
 I think the part that stands out is the API usage, the paper used OPENAI API and we are using DEEPSEEK, which made a confusion during the setup, although going back it seems a pretty small and straight forward thing, but during the implementation it is still it bit struggling. 
 During the implementation I choose to use a different API KEY NAME variable instead of the one given, but it turns out that does not work. This error leads to a lot of larger error such as incorrect LLM name, in which directly solving the error popped up was not solving the problem, and that is the reason it took a while to get the scripts to run before catching the API name error. 
+The judgment call I have to make was the output error as I continuously not getting any output seen for the notebook, but the analysis was ran sucessfully. I have to do some research and try different ways to seek for output, but none has succeed right now. 
 
 ## The paper grades trajectories via expert biologist review. If you wanted to evaluate this kind of agent without recruiting biologists, what would you do?
 I believe comparing publsihed work and published results would be one way. 

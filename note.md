@@ -8,7 +8,7 @@ At this point I started to ask claude to debug and see what I can do, but soon I
 Therefore, I stopped using it, and checked my models again, and found out the CellVoyager's repo is using OPENAI_API_KEY for the API key, rather than DEEPSEEK_API_KEY, at the same time ChatGPT suggested me to use deepseek/deepseek-chat, it did run succesfully, but after doing more searching, I saw it is not exactly using the v4 flash version, so I decided to run again with the correct version, and ended up with my final result. I think this is the most intimidating process for this entire project, where minor fix for syntax and details are constantly popping up, but the overall results are good. This part took me around 3 and a half hours. 
 
 ## Vizualization of Results and markdown file drafting: 
-~4 hour
+~7 hour
 After I started writing the markdown files, I soon realized that although the analysis was shown finished, but the agent did not produce substantive result interpretations. Although each step executed successfully, the log repeatedly reported `results_interpretation: No results found`. This suggests that the execution stage completed, but the interpretation stage failed to capture or read the outputs. I have been trying to see what I can do to see the output. 
 Starting with running the output notebook from both vscode directly or command line in terminal it all leads to a crash in kernel. 
 
